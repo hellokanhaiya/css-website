@@ -1,0 +1,107 @@
+* {
+  font-size: 62.5%;
+  margin: auto;
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --main-bg-color: #ab183d;
+  --main-text-color: #fff;
+  --black-bg-color: #000;
+  --red-text-color: #ff0000;
+  --link-center-color: #0000ff;
+  --heading-center-color: #0000a0;
+  --main-head-first-color: #868a08;
+  --main-head-second-color: #0404b4;
+  --main-head-third-color: #fb5e03;
+  --main-head-forth-color: #8c0101;
+  --main-head-fivth-color: #fb0303;
+  --main-head-sixth-color: #0b610b;
+  --main-head-seventh-color: #ff00bf;
+  --main-head-eighth-color: #0080ff;
+}
+.hero-content {
+  & .resources-heading {
+    color: var(--main-text-color);
+  }
+}
+
+/* start hero content */
+
+.hero-content {
+  width: 96rem;
+  height: 530rem;
+  text-align: center;
+
+  border: 0.2rem solid red;
+  & .resources {
+    line-height: 1rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    & .resources-heading {
+      width: 95.6;
+      height: 4rem;
+      background-color: var(--main-bg-color);
+      font-size: 4rem;
+      justify-content: center;
+      font-weight: 600;
+
+      text-transform: capitalize;
+    }
+    & .resources-para {
+      font-size: 2.3rem;
+      line-height: 1.5rem;
+
+      letter-spacing: 0.03rem;
+      align-items: center;
+      justify-content: center;
+      & p {
+        padding: 1.8rem;
+      }
+    }
+  }
+  .resources-para1 {
+    font-size: 2.3rem;
+    line-height: 1.5rem;
+
+    letter-spacing: 0.03rem;
+    align-items: left;
+    text-align: left;
+
+    & p {
+      padding: 1.8rem;
+    }
+    & h3 {
+      padding: 1.8rem;
+    }
+    & ul li {
+      font-size: 1.7rem;
+      /* padding-left: 1.8rem; */
+      margin-left: 3.5rem;
+      /* line-height: 0.5rem; */
+      list-style: disc;
+    }
+  }
+  .resources-para2 {
+    font-size: 2.3rem;
+    line-height: 1.5rem;
+
+    letter-spacing: 0.03rem;
+    align-items: center;
+    text-align: center;
+    & ul li {
+      font-size: 1.7rem;
+
+      list-style: none;
+    }
+    & p {
+      padding: 1.8rem;
+    }
+    & h3 {
+      padding: 1.8rem;
+    }
+  }
+}
+/* ends hero content */
